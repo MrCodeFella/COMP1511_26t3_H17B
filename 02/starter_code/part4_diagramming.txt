@@ -1,0 +1,13 @@
+print "how many days till asiignment due?"
+scan days
+if 10 < days:
+    print "are u up to date lectures and labs?"
+    scan answer
+    if answer == YES:
+        print "work on assignment"
+    else:
+        print "catch up on them"
+else if 7 <= days && days <= 10:
+    ...
+else if days < 7:
+    ...
